@@ -1,4 +1,11 @@
-#Notes 
-This repo contains a few custom hooks that be used  or not to help me in the future and who need it.
+# useForm Hook
 
-Also, for don't write it again ;-) 
+Usage example:
+```
+    const initialForm = {
+        name:'',
+        age:0,
+        email:''
+    }
+    const [value, handleInputChange, reset] = useFetch(initialForm);
+```

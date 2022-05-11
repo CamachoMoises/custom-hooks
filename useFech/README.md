@@ -1,4 +1,7 @@
-#Notes 
-This repo contains a few custom hooks that be used  or not to help me in the future and who need it.
+# useFetch Hook
 
-Also, for don't write it again ;-) 
+Usage example:
+```
+    const url = 'endpoint of an API'
+    const { data:null, loading:true, error:null} = useFetch(url);
+```
